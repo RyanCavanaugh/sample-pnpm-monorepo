@@ -1,0 +1,21 @@
+lockfileVersion: 5.4
+
+importers:
+
+  .:
+    specifiers: {}
+
+  packages/client:
+    specifiers:
+      common: workspace:*
+    dependencies:
+      common: link:../common
+
+  packages/common:
+    specifiers: {}
+
+  packages/server:
+    specifiers:
+      common: workspace:*
+    dependencies:
+      common: link:../common
