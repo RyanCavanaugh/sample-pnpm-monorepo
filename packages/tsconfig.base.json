@@ -3,8 +3,8 @@
         "strict": true,
         "module": "NodeNext",
         "moduleResolution": "NodeNext",
-        "outDir": "./dist",
-        "skipLibCheck": true,
+        "skipLibCheck": false,
         "composite": true
+        // "noEmit": false
     }
 }
